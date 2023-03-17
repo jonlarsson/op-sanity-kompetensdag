@@ -5,7 +5,6 @@
 	export let data: { conference: Conference };
 	let { conference } = data;
 </script>
-
 <Conference {conference} />
 
 <Days days={conference.days} />
